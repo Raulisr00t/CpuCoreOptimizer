@@ -46,7 +46,7 @@ int main() {
     double time = (double)(end.QuadPart - start.QuadPart) / (double)freq.QuadPart;
 
     printf("[+] DONE: Value of x: %d Value of y: %d\n", somedata.x, somedata.y);
-    printf("[+] Elapsed time: %.6f seconds\n", time);
+    printf("[+] Execution time: %.6f seconds\n", time);
 
     return 0;
 }
